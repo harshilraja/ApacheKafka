@@ -1,4 +1,4 @@
-package org.kafka.model;
+package org.kafka.supplier;
 
 import java.util.Date;
 public class Supplier{

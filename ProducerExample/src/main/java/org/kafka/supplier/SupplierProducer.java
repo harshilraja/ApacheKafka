@@ -1,4 +1,4 @@
-package org.kafka;
+package org.kafka.supplier;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -7,7 +7,6 @@ import java.util.Properties;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;
-import org.kafka.model.Supplier;
 public class SupplierProducer {
 
    public static void main(String[] args) throws Exception{
